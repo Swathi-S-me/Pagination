@@ -1,0 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(34, 214, 154);
+}
+h2{
+    color: brown;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+li{
+    background-color: rgb(195, 222, 139);
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px;
+    text-align: left;
+    
+}
+li:hover{
+    box-shadow:  0px 5px 5px rgb(214, 200, 48) ;
+}
+
+.active{
+    background-color: rgb(79, 158, 79);
+    color: black;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button{
+    margin : 10px;
+    padding: 5px;
+    width: 100;
+    border-radius: 5px;
+}
